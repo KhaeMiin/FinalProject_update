@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -102,11 +103,12 @@ public class ProjectController {
 	
 
 	
-	
+	@Value("${file.upload.image}")
+	String path;
 	@PostMapping("/project/defaultUpdate")
 	public String defaultUpdate(@ModelAttribute ProjectDTO dto,HttpServletRequest request) {
 
-		String path = request.getSession().getServletContext().getRealPath("/thumbnail_image");
+		//String path = request.getSession().getServletContext().getRealPath("/thumbnail_image");
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 
@@ -117,7 +119,7 @@ public class ProjectController {
 			dto.setThumbnail(thumbnail);
 
 			try {
-				dto.getUpload().transferTo(new File(path + "\\" + thumbnail));
+				dto.getUpload().transferTo(new File(path + "/" + thumbnail));
 			} catch (IllegalStateException | IOException e) {
 				e.printStackTrace();
 			}

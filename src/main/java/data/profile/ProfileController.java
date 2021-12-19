@@ -10,6 +10,7 @@ import java.util.Map;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -210,13 +211,16 @@ public class ProfileController {
 		return mview;
 	}
 	
+	
 //	내가 올린 프로젝트 삭제 -사진삭제 추가하기
+	@Value("${file.upload.image}")
+	String path;
 	@GetMapping("/profile/{url}/created_delete")
 	@ResponseBody
 	public void delete(@RequestParam String idx, HttpSession session,@PathVariable String url) {
 		
 		// 실제 업로드 폴더의 경로
-		String path = session.getServletContext().getRealPath("/thumbnail_image");
+		/* String path = session.getServletContext().getRealPath("/thumbnail_image"); */
 		//System.out.println(path);
 		
 		// 업로드된 파일명
@@ -224,7 +228,7 @@ public class ProfileController {
 		String thumbnail = pdto.getThumbnail();
 		//System.out.println(thumbnail);
 		// file 객체 생성
-		File file = new File(path +"\\"+ thumbnail);
+		File file = new File(path +"/"+ thumbnail);
 		// 파일 삭제
 		file.delete();
 		
