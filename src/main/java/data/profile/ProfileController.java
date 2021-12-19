@@ -43,8 +43,9 @@ public class ProfileController {
 	ProjectService projectService;
 	@Autowired
 	DetailService detailService;
-	@Value("${file.upload.image}")
-	String path;
+	/*
+	 * @Value("${file.upload.image}") String path;
+	 */
 	
 	String profile_url = "";
 	
@@ -221,7 +222,7 @@ public class ProfileController {
 	public void delete(@RequestParam String idx, HttpSession session,@PathVariable String url) {
 		
 		// 실제 업로드 폴더의 경로
-		/* String path = session.getServletContext().getRealPath("/thumbnail_image"); */
+		String path = session.getServletContext().getRealPath("/thumbnail_image");
 		//System.out.println(path);
 		
 		// 업로드된 파일명
