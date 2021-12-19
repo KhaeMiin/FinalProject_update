@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-//@Configuration
+@Configuration
 public class MvcConfiguration implements WebMvcConfigurer{
 	@Value("${file.upload.image}")
 	String path;
@@ -23,6 +23,6 @@ public class MvcConfiguration implements WebMvcConfigurer{
         registry.addResourceHandler("/style/**").addResourceLocations("classpath:/static/fonts/").setCachePeriod(60 * 60 * 24 * 365); 
         registry
         .addResourceHandler("/thumbnail_image/**")
-        .addResourceLocations("file:/home/ec2-user/backup/thumbnail_image");
+        .addResourceLocations("file:/home/ec2-user/backup/thunbnail_image ");
    }
 }

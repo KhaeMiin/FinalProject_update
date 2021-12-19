@@ -111,7 +111,7 @@ public class ProjectController {
 	public String defaultUpdate(@ModelAttribute ProjectDTO dto,HttpServletRequest request) {
 
 		//String path = request.getSession().getServletContext().getRealPath("/thumbnail_image");
-		String path = "/home/ec2-user/backup/thumbnail_image";
+		String path = "/home/ec2-user/backup/thunbnail_image";
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 
