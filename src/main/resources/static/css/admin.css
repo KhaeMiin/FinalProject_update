@@ -1,5 +1,4 @@
 /* admin */
-/* 심사 프로젝트 디테일 auditDetail.jsp */
 .HeaderWrap {
     -webkit-text-size-adjust: 100%;
     color: rgba(0, 0, 0, 0.87);
@@ -371,7 +370,6 @@ a.HeaderLeft span {
     margin: 0px;
 }
 
-/* 회원관리 */
 .resultCounter1 {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
