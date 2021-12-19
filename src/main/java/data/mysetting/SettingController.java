@@ -143,7 +143,7 @@ public class SettingController {
 			//업로드된 파일명
 			String uploadfileName = service.getMember(dto.getNum()).getPhoto();
 			//File 객체 생성
-			File file2 = new File(path + "\\" + uploadfileName);
+			File file2 = new File(path + "/" + uploadfileName);
 			//파일 삭제
 			file2.delete();
 			
@@ -155,7 +155,7 @@ public class SettingController {
 			
 			//실제 업로드
 			try {
-				file.transferTo(new File(path + "\\" + uploadfile));
+				file.transferTo(new File(path + "/" + uploadfile));
 			} catch (IllegalStateException | IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

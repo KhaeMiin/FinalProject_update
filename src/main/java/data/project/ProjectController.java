@@ -118,6 +118,10 @@ public class ProjectController {
 		if (dto.getUpload().getOriginalFilename().equals("")) {
 			dto.setThumbnail(null);
 		} else {
+			String uploadfile = service.getData(Integer.toString(dto.getIdx())).getThumbnail();
+			File file1 = new File(path + "/" + uploadfile);
+			file1.delete();
+			
 			String thumbnail = sdf.format(new Date()) + "_" + dto.getUpload().getOriginalFilename();
 			dto.setThumbnail(thumbnail);
 
