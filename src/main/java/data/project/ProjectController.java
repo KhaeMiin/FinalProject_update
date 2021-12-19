@@ -32,6 +32,8 @@ public class ProjectController {
 	ProjectMapper mapper;
 	@Autowired
 	MemberMapper memberMapper;
+	@Value("${file.upload.image}")
+	String path;
 	
 	@GetMapping("/project/start")
 	public String start (HttpSession session) {
@@ -103,8 +105,7 @@ public class ProjectController {
 	
 
 	
-	@Value("${file.upload.image}")
-	String path;
+
 	@PostMapping("/project/defaultUpdate")
 	public String defaultUpdate(@ModelAttribute ProjectDTO dto,HttpServletRequest request) {
 

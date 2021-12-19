@@ -43,6 +43,8 @@ public class ProfileController {
 	ProjectService projectService;
 	@Autowired
 	DetailService detailService;
+	@Value("${file.upload.image}")
+	String path;
 	
 	String profile_url = "";
 	
@@ -213,8 +215,7 @@ public class ProfileController {
 	
 	
 //	내가 올린 프로젝트 삭제 -사진삭제 추가하기
-	@Value("${file.upload.image}")
-	String path;
+
 	@GetMapping("/profile/{url}/created_delete")
 	@ResponseBody
 	public void delete(@RequestParam String idx, HttpSession session,@PathVariable String url) {
