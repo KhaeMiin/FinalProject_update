@@ -223,7 +223,7 @@ public class ProfileController {
 		// 실제 업로드 폴더의 경로
 		//String path = session.getServletContext().getRealPath("/thumbnail_image");
 		//System.out.println(path);
-		String path = "/home/ec2-user/backup/thunbnail_image";
+		String path = "/home/ec2-user/backup/thumbnail_image";
 		// 업로드된 파일명
 		ProjectDTO pdto = projectService.getData(idx);
 		String thumbnail = pdto.getThumbnail();
