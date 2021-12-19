@@ -17,8 +17,8 @@ public class MvcConfiguration implements WebMvcConfigurer{
         registry.addResourceHandler("/fonts/**").addResourceLocations("classpath:/static/fonts/").setCachePeriod(60 * 60 * 24 * 365); 
         registry.addResourceHandler("/style/**").addResourceLocations("classpath:/static/fonts/").setCachePeriod(60 * 60 * 24 * 365); 
         registry
-        .addResourceHandler("/file/**")
+        .addResourceHandler("/thumbnail_image/**")
 				/* .addResourceHandler("/file/**") */
-        .addResourceLocations("file:/DATA/video/");
+        .addResourceLocations("file:/home/ec2-user/backup/thumbnail_image");
    }
 }
