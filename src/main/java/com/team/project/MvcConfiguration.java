@@ -24,5 +24,8 @@ public class MvcConfiguration implements WebMvcConfigurer{
         registry
         .addResourceHandler("/thumbnail_image/**")
         .addResourceLocations("file:/home/ec2-user/backup/thumbnail_image");
+        registry
+        .addResourceHandler("/profile_image/**")
+        .addResourceLocations("file:/home/ec2-user/backup/profile_image");
    }
 }
