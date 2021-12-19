@@ -23,7 +23,6 @@
 <link rel="stylesheet" href="/css/core-style.css">
 <link rel="stylesheet" href="/css/bootstrap.css">
 <link rel="stylesheet" href="/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/jquery-ui.min.css">
 <link rel="stylesheet" href="/css/magnific-popup.css">
 <link rel="stylesheet" href="/css/nice-select.css">
 <link rel="stylesheet" href="/css/main.css">

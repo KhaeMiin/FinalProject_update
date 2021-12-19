@@ -947,3 +947,33 @@ ul, ol {
 .creators_img{
 	margin-bottom: 50px;
 }
+
+/* 프로젝트올리기 */
+*, ol, ul {
+	margin: 0
+}
+
+* {
+	padding: 0
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	overflow-x: hidden
+}
+
+ol li, ul li {
+	list-style: none
+}
+
+img {
+	height: auto;
+	max-width: 100%
+}
+
+.classynav ul li {
+	display: inline-block;
+	clear: both;
+	position: inherit;
+	z-index: 10
+}
