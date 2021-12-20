@@ -1,52 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<link rel="stylesheet" type="text/css" href="/css/project-start.css">
 
-<style>
-.btn-category{
-	font-size: 14px;
-	border: 1px solid #f5f5f5;
-	background: #ffffff;
-	padding: 7px 22px;
-	border-radius: 30px;
-	float: left;
-	margin-left: 5px;
-	margin-bottom: 8px;
-}
-.btn2{
-	color: white;
-	background: #1e90ff;
-	padding: 7px 24px;
-	float: left;
-	margin-left: 5px;
-	margin-bottom: 8px;
-	font-weight: bold;
-}
-.btn3{
-	color: white;
-	background: #cbcbcb;
-	padding: 7px 24px;
-	font-weight: bold;
-	margin-left: 300px;
-}
-.layout2{
-	width: 480px; 
-	margin: 0px auto;
-}
-.textAndCheck{
-	display: flex;
-}
-.layout1{
-	width: 480px;
-	margin: 0px auto;
-}
-.textBox1>ul>li{
-	margin-top: 12px;
-}
-.checkBox1{
-	margin-right: 7px;
-}
-</style>
 <script type="text/javascript">
 $(function() {
 	$("div.layout2").hide();
@@ -93,13 +49,13 @@ $(function() {
 <div class="contact-area d-flex align-items-center">
     
     <div class="img">
-        <img alt="" src="${root }/image/1.jpg" style="width: 390px;">
+        <img alt="" src="${root }/image/1.jpg">
     </div>  
     <div class="layout1">
         <h4>
 			멋진 아이디어가 있으시군요! <br> 어떤 프로젝트를 계획 중이신가요?
 		</h4>
-		<p style="font-size:13px;">나중에 변경 가능하니 너무 걱정마세요.</p>
+		<p>나중에 변경 가능하니 너무 걱정마세요.</p>
 		<br>
 		<div>
 		<ul>
@@ -132,7 +88,7 @@ $(function() {
 			</li>
 		</ul>
 		</div>	
-		<div id="next" style="margin-top: 200px; margin-left: 370px;"></div>
+		<div id="next"></div>
     </div>
     
     <div class="contact-info layout2">
@@ -147,17 +103,17 @@ $(function() {
 					<ul>
 						<li style="margin-top: 9px;">
 							<label>
-								<input type="checkbox" style="zoom:2.0;" class="inpu" name="inpu" id="inpu1">
+								<input type="checkbox" class="inpu" name="inpu" id="inpu1">
 			    			</label>
 						</li>
 						<li style="margin-top: 3px;">
 						<label>
-							<input type="checkbox" style="zoom:2.0;" class="inpu" name="inpu" id="inpu2">
+							<input type="checkbox" class="inpu" name="inpu" id="inpu2">
 		    			</label>
 						</li>
 						<li style="margin-top: 23px;">
 						<label>
-							<input type="checkbox" style="zoom:2.0;" class="inpu" name="inpu" id="inpu3">					
+							<input type="checkbox" class="inpu" name="inpu" id="inpu3">					
 		    			</label>
 						</li>
 					</ul>
@@ -190,7 +146,7 @@ $(function() {
 		<hr>
 		<div>
 			<span id="back" style="cursor: pointer;">
-				<i class="fa fa-chevron-left" style="font-size: 1.4em;"></i>
+				<i class="fa fa-chevron-left bakcCss"></i>
 				&nbsp;&nbsp;뒤로가기
 			</span>
 			<form action="insert" method="post">
