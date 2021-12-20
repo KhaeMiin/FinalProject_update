@@ -206,7 +206,7 @@
 
 <div class="media">
 	<div class="main_title" style="width: 350px; ">
-	<h6>프로젝트 계획<i class="fa fa-asterisk" style="color: red; font-size: 15px;"></i></h6>
+	<h6>프로젝트 계획<i class="fa fa-asterisk iconStar"></i></h6>
 		<br>
 		<div style="background-color: #fdf4f3; padding: 30px 50px; width: 80%;">
 			<span style="color: red; font-size: 12px;" class="fa fa-check-circle-o">

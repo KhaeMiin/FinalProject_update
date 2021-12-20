@@ -94,11 +94,10 @@ $(function() {
 <form action="defaultUpdate" method="post" enctype="multipart/form-data" id="upload-file-form">
 
 	<!-- header(button) -->
-	<header class="header_area project_back" style="height: 90px;">
+	<header class="header_area project_back">
 		<div id="btn" class="passbtn_box">	
 			<a class="main-logo" href="/">
-			<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png"
-			style="width: 150px; margin-top: 27px; z-index: 999;">
+			<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 			</a>
 			<button type="button" id="finalSave1" class="btn final-btn" disabled="disabled">심사요청</button>
 			<button type="submit" id="save0" class="btn save btn_css" disabled="disabled">저장하기</button>
@@ -107,7 +106,7 @@ $(function() {
 	
 	<div class="media">
 		<div class="main_title">
-		<h6>프로젝트 카테고리<i class="fa fa-asterisk" style="color: red; font-size: 15px;"></i></h6>
+		<h6>프로젝트 카테고리<i class="fa fa-asterisk iconStar"></i></h6>
 			<div class="sub_text">
 				프로젝트 성격과 가장 일치하는 카테고리를 선택해주세요.<br>
 				적합하지 않을 경우 운영자에 의해 조정될 수 있습니다.
@@ -136,7 +135,7 @@ $(function() {
 	<br>
 	<div class="media">
 		<div class="main_title">
-		<h6>프로젝트 제목<i class="fa fa-asterisk" style="color: red;  font-size: 15px;"></i></h6>
+		<h6>프로젝트 제목<i class="fa fa-asterisk iconStar"></i></h6>
 			<div class="sub_text">
 				프로젝트와 주제, 창작물의 특징이 드러나는 멋진 제목을<br>
 				붙여주세요.
@@ -147,7 +146,7 @@ $(function() {
 				<p>제목</p>
 				<div class="groundBorder">
 					<div class="sub_title">
-						<div style="width: 250px;" class="sub_font">
+						<div class="sub_font" id="subFont">
 						제목은<br>
 						어디에 쓰이나요?
 						</div>	
@@ -160,7 +159,7 @@ $(function() {
 				<div>
 					<input type="text" class="textform title_length" name="title" id="title" required="required" value="${dto.title }"
 					placeholder="제목을 입력해주세요" maxlength="50">
-					<div class="text_length" style="float: right;">0/50</div>
+					<div class="text_length">0/50</div>
 				</div>
 			</div>
 		</div>
@@ -169,7 +168,7 @@ $(function() {
 	<br>
 	<div class="media">
 		<div class="main_title">
-		<h6>프로젝트 대표 이미지<i class="fa fa-asterisk" style="color: red; font-size: 15px;"></i></h6>
+		<h6>프로젝트 대표 이미지<i class="fa fa-asterisk iconStar"></i></h6>
 			<div class="sub_text">
 				후원자들이 프로젝트의 내용을 쉽게 파악하고 좋은 인강을 받을 수 있도록 이미지 가이드라인을 따라주세요.
 			</div>
@@ -187,21 +186,21 @@ $(function() {
 				<br><br>
 				<div class="file_box">
 					<div id="img_layout">
-					<div id="imgViewArea" style="width: 200px; ">
-						<img id="imgArea" style="width:200px;" onerror="imgAreaError()"/>
+					<div id="imgViewArea" class="imgView">
+						<img id="imgArea" class="imgView" onerror="imgAreaError()"/>
 					</div>
-						<div style="margin-top:30px; margin-left: 200px;" id="layout4">
-							<div style="margin-left: 10px;">
+						<div id="layout4">
+							<div class="uploadImg" style="">
 							<label for="upload">
 								<img src="${root }/image/3.JPG">
 							</label>
 							</div>
 							<div class="filebox"> 
-								<label for="upload" style="width: 115px; text-align: center;">이미지 업로드</label> 
+								<label for="upload">이미지 업로드</label> 
 								<input type="file" id="upload" name="upload"> 
 							</div>
 						</div>
-						<div id="layout3" style="margin-top: 20px; margin-left: 100px;">
+						<div id="layout3">
 							<label for="ex_file" class="label_box">
 								파일 형식은 jpg또는 png로,<br>
 								사이즈는 가로1,240px,세로 930px 이상<br>

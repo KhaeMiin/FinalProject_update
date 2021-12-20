@@ -20,7 +20,7 @@
 		$("#option_yes").click(function() {
 			$("#form2").css("border","1px solid red");
 			$("#form1").css("border","1px solid #cccccc");
-			$("#plus_form").show()
+			$("#plus_form").show();
 			
 		});
 		
@@ -270,44 +270,43 @@
 </script>
 <!-- header(button) -->
 <header class="header_area project_back">
-	<div id="btn" class="passbtn_box">	
+	<div id="btn" class="passbtn_box reward_boxForm">	
 		<a class="main-logo" href="/">
-		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png"
-		style="width: 150px; margin-top: 27px; z-index: 800;">
+		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
 	<button type="button" id="finalSave2" class="btn final-btn">심사요청</button>
 	</div>
 </header>
 <div class="media">
-	<div class="main_title" style="width: 350px;">
+	<div class="main_title" id="rewardForm">
 	<h6>내가 만든 선물</h6>
 		<br>
 		<div>
 			<div class="present_box">
-				<div style="width: 70%">
+				<div class="rewardBox">
 					<strong class='strong_font'>1,000원+</strong><br>
 					<span>선물 없이 후원하기</span>
 				</div>
-				<div style="width: 30px;">
+				<div class="present_box2" style="">
 				</div>
 			</div>
 		</div>
 		<div id="present_list">
 			<div class="present_box">
-				<div style="width: 70%">
+				<div class="rewardBox">
 					<strong class='strong_font'>1,000원+</strong><br>
 					<span>선물 없이 후원하기</span>
 				</div>
-				<div style="width: 30px;">
+				<div class="present_box2">
 				</div>
 			</div>
 		</div>
 	</div>
 	<div>
-		<div class="layout1" style="margin-top: 30px;">
+		<div class="layout1" id="boxLayout">
 			<div class="groundBorder">
-				<div class="" style="margin: 40px;">
-					<div style="width: 250px;" class="sub_font">
+				<div class="boxLayout boxLayout2">
+					<div class="sub_font" id="reward_sub_font">
 					선물 만들기<br>
 					</div>
 					<div>
@@ -316,15 +315,15 @@
 					더 많은 후원 금액을 모금할 수 있어요.
 					</div>	
 				</div>
-				<div style="margin: 40px;">
-					<p>선물 이름&nbsp;<span class="fa fa-question-circle-o" style="color: red; font-size: 15px;"></span>
+				<div class="boxLayout2" id="reward_name">
+					<p>선물 이름&nbsp;<span class="fa fa-question-circle-o"></span>
 					<div></div>
 					<input type="text" placeholder="선물 이름을 입력해주세요" id="present_name"
-					class="textform" style="width: 100%;" maxlength="50">
-					<div class="present_length" style="float: right;">0/50</div>
+					class="textform" maxlength="50">
+					<div class="present_length">0/50</div>
 				</div>	
 				<br>
-				<div style="margin: 40px;">
+				<div class="boxLayout2">
 					<p>옵션&nbsp;<span class="fa fa-question-circle-o" style="color: red; font-size: 15px;"></span>
 					<div>
 						<div class="btn-group btn-group-toggle">
@@ -337,7 +336,7 @@
 						</div>
 					</div>
 				</div>
-				<div style="margin: 40px;" id="plus_form">
+				<div class="boxLayout2" id="plus_form">
 					<p>옵션 항목
 					<input type="text" class="textform option_form" style="width: 95%;" id="option1" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
@@ -355,7 +354,7 @@
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
 				</div>
-				<div style="margin: 40px;">
+				<div class="boxLayout2">
 					<p>최소 후원 금액&nbsp;<span class="fa fa-question-circle-o" style="color: red; font-size: 15px;"></span>
 					<div>
 					배송이 필요한 선물은 배송비를 포함해주세요.
@@ -365,7 +364,7 @@
 					class="textform price" style="width: 100%;" id="price" name="price">
 					<div class="den_text2" style="float: right; margin-right: 35px; color:red;"></div>
 				</div>
-				<div style="margin: 40px;">
+				<div class="boxLayout2">
 				<button type="button" class="btn btn-default" id="delete_btn">초기화</button>
 				<button type="button" class="btn" id="save5" disabled="disabled">추가하기</button>
 				</div>
