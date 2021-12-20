@@ -194,7 +194,7 @@
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
 <header class="header_area project_back">
-	<div id="btn" class="passbtn_box" style=" background-color: white; border: none;">	
+	<div id="btn" class="passbtn_box">	
 		<a class="main-logo" href="/">
 		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png"
 		style="width: 150px; margin-top: 27px; z-index: 999;">
