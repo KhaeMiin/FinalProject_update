@@ -323,14 +323,14 @@
 					<div class="present_length">0/50</div>
 				</div>	
 				<br>
-				<div class="boxLayout2">
-					<p>옵션&nbsp;<span class="fa fa-question-circle-o" style="color: red; font-size: 15px;"></span>
+				<div class="boxLayout2" id="reward_option">
+					<p>옵션&nbsp;<span class="fa fa-question-circle-o"></span>
 					<div>
 						<div class="btn-group btn-group-toggle">
-							<label class="btn textform" style="width: 250px;" id="form1">
+							<label class="btn textform" id="form1">
 								<input type="radio" name="jb-radio" id="option_no" class="textform"> 없음
 							</label>
-							<label class="btn textform" style="width: 250px;" id="form2">
+							<label class="btn textform" id="form2">
 								<input type="radio" name="jb-radio" id="option_yes" class="textform" > 객관식
 							</label>							
 						</div>
@@ -338,24 +338,24 @@
 				</div>
 				<div class="boxLayout2" id="plus_form">
 					<p>옵션 항목
-					<input type="text" class="textform option_form" style="width: 95%;" id="option1" name="option"
+					<input type="text" class="textform option_form" id="option1" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
-					<input type="text" class="textform option_form" style="width: 95%;" id="option2" name="option"
+					<input type="text" class="textform option_form" id="option2" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
-					<input type="text" class="textform option_form" style="width: 95%;" id="option3" name="option"
+					<input type="text" class="textform option_form" id="option3" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
-					<input type="text" class="textform option_form" style="width: 95%;" id="option4" name="option"
+					<input type="text" class="textform option_form" id="option4" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
-					<input type="text" class="textform option_form" style="width: 95%;" id="option5" name="option"
+					<input type="text" class="textform option_form" id="option5" name="option"
 					placeholder="옵션 항목을 입력해주세요.예)블랙=230mm,블랙-240mm" maxlength="50">
 	            	<span class='searchclear' id=''>&nbsp;&nbsp;X</span><br><br>
 				</div>
-				<div class="boxLayout2">
-					<p>최소 후원 금액&nbsp;<span class="fa fa-question-circle-o" style="color: red; font-size: 15px;"></span>
+				<div class="boxLayout2" id="rewardPay">
+					<p>최소 후원 금액&nbsp;<span class="fa fa-question-circle-o"></span>
 					<div>
 					배송이 필요한 선물은 배송비를 포함해주세요.
 					</div>

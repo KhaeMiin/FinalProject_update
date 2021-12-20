@@ -180,11 +180,11 @@ ul.list{
 	margin-top: 27px; 
 	z-index: 999;
 }
-.iconStar,#reward_name >span{
+.iconStar,#reward_name >p>span,#rewardPay>p>span,#reward_option>p>span{
 	color: red; 
 	font-size: 15px;
 }
-#subFont,#reward_sub_font{
+#subFont,#reward_sub_font,#form1,#form2{
 	width: 250px;
 }
 .imgView{
@@ -298,4 +298,7 @@ ul.list{
 }
 #present_name{
 	width: 100%;
+}
+.option_form{
+	width: 95%;
 }
