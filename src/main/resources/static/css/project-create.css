@@ -211,14 +211,14 @@ ul.list{
 	padding: 30px 50px; 
 	width: 100%;
 }
-.goalText >span{
+.goalText >span,#text_css,#span_css{
 	color: red; 
 	font-size: 12px;
 }
 #borderGround{
 	height: 350px;
 }
-#goalPayCss{
+#goalPayCss,#polict_css1{
 	width: 250px; 
 	margin: 20px;
 }
@@ -227,7 +227,7 @@ ul.list{
 	text-align:right; 
 	margin-left: 20px;
 }
-.den_text{
+.den_text,.den_text2{
 	float: right; 
 	margin-right: 35px; 
 	color:red;
@@ -296,9 +296,36 @@ ul.list{
 .boxLayout2{
 	margin: 40px;
 }
-#present_name{
+#present_name,#price{
 	width: 100%;
 }
 .option_form{
 	width: 95%;
+}
+
+/* story */
+.goalText2{
+	background-color: #fdf4f3; 
+	padding: 30px 50px; 
+	width: 80%;
+}
+#border_line_box{
+	width: 70%; 
+	margin: 30px;
+}
+.back_color{
+	background-color: #fdf4f3; 
+	padding: 30px 50px; 
+	width: 80%;
+}
+#span_css2{
+	font-size: 11px;
+}
+.box_css{
+	margin-bottom: 30px; 
+	width: 100%;
+}
+/* policy */
+#box_css3{
+	height: 400px;
 }

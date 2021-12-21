@@ -196,8 +196,7 @@
 <header class="header_area project_back">
 	<div id="btn" class="passbtn_box">	
 		<a class="main-logo" href="/">
-		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png"
-		style="width: 150px; margin-top: 27px; z-index: 999;">
+		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
 		<button type="button" id="finalSave4" class="btn final-btn">심사요청</button>
 		<button type="button" id="save4" class="btn save" disabled="disabled">저장하기</button>
@@ -205,21 +204,21 @@
 </header>
 
 <div class="media">
-	<div class="main_title" style="width: 350px; ">
+	<div class="main_title" style="width: 350px;">
 	<h6>프로젝트 계획<i class="fa fa-asterisk iconStar"></i></h6>
 		<br>
-		<div style="background-color: #fdf4f3; padding: 30px 50px; width: 80%;">
-			<span style="color: red; font-size: 12px;" class="fa fa-check-circle-o">
+		<div class="back_color" style="">
+			<span id="span_css" class="fa fa-check-circle-o">
 			텍스트 에디터 사용법</span><br>
-			<span style="font-size: 11px;">· Enter( )를 누르면 문단이 구분됩니다. 문단 내에서
+			<span id="span_css2">· Enter( )를 누르면 문단이 구분됩니다. 문단 내에서
 			간격 없이 줄바꿈 하려면 shift(⇧) + enter(↵) 를 사용해주세요.<br>
 			· ctrl+c/v를 이용해 선택한 이미지를 입력창 내에서 복사/붙여넣기 할 수 있습니다.<br>
 			· 본문 텍스트와 이미지는 되도록 분리해서 작성해주세요. 통 이미지 사용은 불가합니다.</span>
 		</div>
 	</div>
 	<div style="height: 350px;"></div>
-	<div class="border_line" style="width: 70%; margin: 30px;">
-		<div class="layout1 editor_line" style="margin-bottom: 30px; width: 100%;">
+	<div class="border_line" id="border_line_box">
+		<div class="layout1 editor_line box_css">
 		<h6>프로젝트 목적</h6>
 		무엇을 만들기 위한 프로젝트인지 분명히 알려주세요.
 		    <div>
@@ -227,7 +226,7 @@
 		    </div>			
 		</div>
 		<hr>
-		<div class="layout1 editor_line" style="margin-bottom: 30px; width: 100%;">
+		<div class="layout1 editor_line box_css">
 		<h6>프로젝트 예산</h6>
 		펀딩 목표 금액을 제작에 어떻게 사용할 것인지 구체적으로 알려주세요. '인건비','배송비','인쇄비','대관료'등 세부 항목별로 작성해야 합니다.
 		    <div>
@@ -235,25 +234,25 @@
 		    </div>			
 		</div>
 		<hr>
-		<div class="layout1 editor_line" style="margin-bottom: 30px; width: 100%;">
+		<div class="layout1 editor_line box_css">
 		<h6>프로젝트 일정</h6>
 		작업 일정을 구체적인 날짜와 함께 작성하세요. 후원자가 일정을 보면서 어떤 작업이 진행될지 알 수 있어야 합니다. 펀딩 종료 이후의 제작 일정을 반드시 포함하세요.
-		    <div class="" >
+		    <div>
 		      <textarea id="project_schedule" name="project_schedule" required="required">${dto.project_schedule }</textarea>
 		    </div>			
 		</div>
 		<hr>
-		<div class="layout1 editor_line" style="margin-bottom: 30px; width: 100%;">
+		<div class="layout1 editor_line box_css">
 		<h6>프로젝트 팀 소개</h6>
 		프로젝트를 진행하는 팀(혹은 개인)을 알려주세요. 이 프로젝트를 완수할 수 있다는 점을 후원자가 알 수 있어야 합니다. 이전 프로젝트, 기타 활동 내용, SNS 등을 공개해보세요.
-		    <div class="" >
+		    <div>
 		      <textarea id="project_team_intro" name="project_team_intro" required="required">${dto.project_team_intro }</textarea>
 		    </div>			
 		</div>
 		<hr>
-		<div class="layout1 editor_line" style="margin-bottom: 30px; width: 100%;">
+		<div class="layout1 editor_line box_css">
 		<h6>선물 설명</h6>
-		    <div class="" >
+		    <div>
 		      <textarea id="project_present_intro" name="project_present_intro" required="required">${dto.project_present_intro }</textarea>
 		    </div>			
 		</div>

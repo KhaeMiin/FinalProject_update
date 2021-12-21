@@ -54,16 +54,15 @@ $(function() {
 <header class="header_area project_back">
 	<div id="btn" class="passbtn_box" style=" background-color: white; border: none;">	
 		<a class="main-logo" href="/">
-		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png"
-		style="width: 150px; margin-top: 27px; z-index: 999;">
+		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
 		<button type="button" id="finalSave3" class="btn final-btn">심사요청</button>
 		<button type="button" id="save3" class="btn save" disabled="disabled">저장하기</button>
 	</div>
 </header>
 <div class="media">
-	<div class="main_title">
-	<h6>예상되는 어려움<i class="fa fa-asterisk" style="color: red; font-size: 15px;"></i></h6>
+	<div class="main_title" id="reward_name">
+	<h6>예상되는 어려움<i class="fa fa-asterisk"></i></h6>
 		<div class="sub_text">
 			펀딩 진행 및 선물 전달 과정에서 발생 가능한 문제가 있다면 후원자에게 명확하게 알려주세요.
 			 대응 계획을 함께 적는다면 후원자에게 신뢰를 줄 수 있습니다.		
@@ -71,9 +70,9 @@ $(function() {
 	</div>
 	<div>
 		<div class="layout1">
-			<div class="groundBorder" style="height: 400px;">
-				<div class="">
-					<div style="width: 250px; margin: 20px;" class="sub_font">
+			<div class="groundBorder" id="box_css3"style="">
+				<div>
+					<div class="sub_font polict_css1">
 					<span class="fa fa-exclamation-circle" style="color:red; font-size: 1.2em;"></span>
 					&nbsp;예상되는 어려움<br>
 					</div>

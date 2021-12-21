@@ -361,8 +361,8 @@
 					</div>
 					<br>
 					<input type="text" placeholder="1000원 이상의 금액을 입력해주세요" onkeyup="inputNumberFormat(this)"
-					class="textform price" style="width: 100%;" id="price" name="price">
-					<div class="den_text2" style="float: right; margin-right: 35px; color:red;"></div>
+					class="textform price" id="price" name="price">
+					<div class="den_text2"></div>
 				</div>
 				<div class="boxLayout2">
 				<button type="button" class="btn btn-default" id="delete_btn">초기화</button>
