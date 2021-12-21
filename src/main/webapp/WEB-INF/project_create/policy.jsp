@@ -52,12 +52,12 @@ $(function() {
 </script>    
 <!-- header(button) -->
 <header class="header_area project_back">
-	<div id="btn" class="passbtn_box box_css3">	
+	<div id="btn" class="passbtn_box box_css3 reward_boxForm">	
 		<a class="main-logo" href="/">
 		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
-		<button type="button" id="finalSave3" class="btn final-btn">심사요청</button>
-		<button type="button" id="save3" class="btn save" disabled="disabled">저장하기</button>
+		<button type="button" id="finalSave3" class="btn final-btn final_btn">심사요청</button>
+		<button type="button" id="save3" class="btn save save_btn" disabled="disabled">저장하기</button>
 	</div>
 </header>
 <div class="media">

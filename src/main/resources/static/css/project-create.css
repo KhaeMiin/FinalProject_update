@@ -344,3 +344,10 @@ ul.list{
 	background-color: white; 
 	border: none;
 }
+
+/* Button */
+.save_btn,.final_btn{
+	cursor: auto;
+	color: white;
+	background-color: #cbcbcb;
+}

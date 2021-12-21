@@ -194,12 +194,12 @@
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
 <header class="header_area project_back">
-	<div id="btn" class="passbtn_box">	
+	<div id="btn" class="passbtn_box reward_boxForm">	
 		<a class="main-logo" href="/">
 		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
-		<button type="button" id="finalSave4" class="btn final-btn">심사요청</button>
-		<button type="button" id="save4" class="btn save" disabled="disabled">저장하기</button>
+		<button type="button" id="finalSave4" class="btn final-btn final_btn">심사요청</button>
+		<button type="button" id="save4" class="btn save save_btn" disabled="disabled">저장하기</button>
 	</div>
 </header>
 

@@ -10,7 +10,7 @@ $(document).ready(function() {
 });
 
 $(function() {
-	$("button#save0,#save2,#save3,#save4,#save5").css({"backgroundColor":"#cbcbcb","cursor":"auto","color":"white"});
+	$("#finalSave1, #finalSave2, #finalSave3, #finalSave4, #finalSave5").css({"backgroundColor":"#cbcbcb","cursor":"auto","color":"white"});
 	projectData();
 	audit = ($("#audit").val());
 	$("#getData").hide();
@@ -94,13 +94,13 @@ $(function() {
 <form action="defaultUpdate" method="post" enctype="multipart/form-data" id="upload-file-form">
 
 	<!-- header(button) -->
-	<header class="header_area project_back">
+	<header class="header_area project_back reward_boxForm">
 		<div id="btn" class="passbtn_box">	
 			<a class="main-logo" href="/">
 			<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 			</a>
-			<button type="button" id="finalSave1" class="btn final-btn" disabled="disabled">심사요청</button>
-			<button type="submit" id="save0" class="btn save btn_css" disabled="disabled">저장하기</button>
+			<button type="button" id="finalSave1" class="btn final-btn final_btn" disabled="disabled">심사요청</button>
+			<button type="submit" id="save0" class="btn save btn_css save_btn" disabled="disabled">저장하기</button>
 		</div>
 	</header>
 	

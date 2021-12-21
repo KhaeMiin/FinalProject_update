@@ -274,7 +274,7 @@
 		<a class="main-logo" href="/">
 		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
-	<button type="button" id="finalSave2" class="btn final-btn">심사요청</button>
+	<button type="button" id="finalSave2" class="btn final-btn final_btn">심사요청</button>
 	</div>
 </header>
 <div class="media">
