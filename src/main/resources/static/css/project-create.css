@@ -180,7 +180,8 @@ ul.list{
 	margin-top: 27px; 
 	z-index: 999;
 }
-.iconStar,#reward_name >p>span,#rewardPay>p>span,#reward_option>p>span{
+#span_css3,#span_css2,.iconStar,#reward_name >p>span,
+#rewardPay>p>span,#reward_option>p>span{
 	color: red; 
 	font-size: 15px;
 }
@@ -218,7 +219,7 @@ ul.list{
 #borderGround{
 	height: 350px;
 }
-#goalPayCss,#polict_css1{
+#goalPayCss,#polict_css1,.policy_css2{
 	width: 250px; 
 	margin: 20px;
 }
@@ -328,4 +329,18 @@ ul.list{
 /* policy */
 #box_css3{
 	height: 400px;
+}
+.polict_css1> span,.policy_css2>span{
+	color:red; 
+	font-size: 1.2em;
+}
+#anticipated_problem,#anticipated,#copy{
+	font-size:13px; 
+	margin-left:15px; 
+	width: 95%; 
+	height: 180px;
+}
+.box_css3{
+	background-color: white; 
+	border: none;
 }

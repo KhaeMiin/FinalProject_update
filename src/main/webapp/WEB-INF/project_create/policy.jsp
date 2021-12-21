@@ -52,7 +52,7 @@ $(function() {
 </script>    
 <!-- header(button) -->
 <header class="header_area project_back">
-	<div id="btn" class="passbtn_box" style=" background-color: white; border: none;">	
+	<div id="btn" class="passbtn_box box_css3">	
 		<a class="main-logo" href="/">
 		<img class="bunddeuk" alt="" src="${root }/img/core-img/bunddeuk.png">
 		</a>
@@ -61,8 +61,8 @@ $(function() {
 	</div>
 </header>
 <div class="media">
-	<div class="main_title" id="reward_name">
-	<h6>예상되는 어려움<i class="fa fa-asterisk"></i></h6>
+	<div class="main_title">
+	<h6>예상되는 어려움<i id="span_css3" class="fa fa-asterisk"></i></h6>
 		<div class="sub_text">
 			펀딩 진행 및 선물 전달 과정에서 발생 가능한 문제가 있다면 후원자에게 명확하게 알려주세요.
 			 대응 계획을 함께 적는다면 후원자에게 신뢰를 줄 수 있습니다.		
@@ -70,10 +70,10 @@ $(function() {
 	</div>
 	<div>
 		<div class="layout1">
-			<div class="groundBorder" id="box_css3"style="">
+			<div class="groundBorder" id="box_css3">
 				<div>
 					<div class="sub_font polict_css1">
-					<span class="fa fa-exclamation-circle" style="color:red; font-size: 1.2em;"></span>
+					<span class="fa fa-exclamation-circle"></span>
 					&nbsp;예상되는 어려움<br>
 					</div>
 					<div style="margin: 20px;">
@@ -82,7 +82,7 @@ $(function() {
 					</div>
 				</div>
 				<div>
-					<textarea rows="" class="border_line" cols="" style="font-size:13px; margin-left:15px; width: 95%; height: 180px;" id="anticipated_problem">
+					<textarea rows="" class="border_line" cols=""id="anticipated_problem">
 					
 	· 제작 과정에서 발생할 수 있는 변동사항이 있다면 무엇인가요? (예산, 선물 내용 등)
 	· 선물 전달 일정이 지연될 가능성이 있나요 ?
@@ -98,7 +98,7 @@ $(function() {
 <br>
 <div class="media">
 	<div class="main_title">
-	<h6>프로젝트 후원 정책<i class="fa fa-asterisk" style="color: red; font-size: 15px;"></i></h6>
+	<h6>프로젝트 후원 정책<i class="fa fa-asterisk" id="span_css2"></i></h6>
 		<div class="sub_text">
 			프로젝트 진행 및 선물 전달 과정에서 발생할 수 있는 위험 요소를 고려하여 신중히 설정해주세요. 
 			예기치 못한 분쟁이 발생할 경우 중요한 기준이 됩니다.	
@@ -107,9 +107,9 @@ $(function() {
 	<div>
 		<div class="layout1">
 			<div class="groundBorder" style="height: 400px;">
-				<div class="">
-					<div style="width: 250px; margin: 20px;" class="sub_font">
-					<span class="fa fa-file-text" style="color:red; font-size: 1.2em;"></span>
+				<div>
+					<div class="policy_css2">
+					<span class="fa fa-file-text"></span>
 					&nbsp;교환 및 환불 안내<br>
 					</div>
 					<div style="margin: 20px;">
@@ -117,7 +117,7 @@ $(function() {
 					</div>
 				</div>
 				<div>
-					<textarea rows="" class="border_line" cols="" style="font-size:13px; margin-left:15px; width: 95%; height: 180px;" id="anticipated" disabled>
+					<textarea rows="" class="border_line" cols="" id="anticipated" disabled>
 					
 모든 프로젝트 공통
 - 펀딩 종료일 후에는 즉시 제작 및 실행에 착수하는 프로젝트 특성상 단순 변심에 의한 후원금 환불이 불가능합니다.
@@ -147,7 +147,7 @@ $(function() {
 	</div>
 </div>
 				<div>
-					<textarea rows="" class="border_line" cols="" style="font-size:13px; margin-left:15px; width: 95%; height: 180px;" id="copy">
+					<textarea rows="" class="border_line" cols="" id="copy">
 					
 	· 제작 과정에서 발생할 수 있는 변동사항이 있다면 무엇인가요? (예산, 선물 내용 등)
 	· 선물 전달 일정이 지연될 가능성이 있나요 ?
