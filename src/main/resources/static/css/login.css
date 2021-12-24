@@ -1,7 +1,3 @@
-
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -155,12 +151,6 @@ iframe {
 
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
-.txt1 {
-  font-family: Poppins-Regular;
-  font-size: 13px;
-  color: #666666;
-  line-height: 1.5;
-}
 
 .txt2 {
   font-family: Poppins-Regular;
@@ -316,47 +306,6 @@ iframe {
 .has-val.input100 + .focus-input100::before {
   width: 100%;
 }
-
-/*---------------------------------------------*/
-.btn-show-pass {
-  font-size: 15px;
-  color: #999999;
-
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  right: 0;
-  padding-right: 5px;
-  cursor: pointer;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.btn-show-pass:hover {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-.btn-show-pass.active {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-
 
 /*------------------------------------------------------------------
 [ Button ]*/
@@ -566,5 +515,38 @@ iframe {
   }
 }
 
+/*mj*/
+.login-sub-manu{
+	color: gray;
+	cursor: pointer;
+	text-align: center;
+}
 
+.login-sub-manu span+span::before{
+	content: '';
+    position: absolute;
+    left: 744px;
+    margin-top: 3px;
+    width: 1px;
+    height: 13px;
+    border-radius: .5px;
+    background-color: gray;
+    cursor: default;
+}
+.login-sub-manu span{
+	margin: 0 10px;
+}
 
+.join-form{
+	width:500px;
+	margin-top:50px;
+	margin-bottom:11px;
+	border:1px solid silver;
+	padding: 45px 35px;
+	border-radius: 5px;
+}
+
+.member-info{
+	height:39px;
+	margin-top:10px;
+}

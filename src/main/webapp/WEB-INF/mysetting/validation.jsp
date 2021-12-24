@@ -119,7 +119,6 @@ function lastcheck2()
 
 
 
-	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
 	<script src="/css/vendor/jquery/jquery-3.2.1.min.js"></script>
