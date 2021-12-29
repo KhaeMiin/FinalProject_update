@@ -119,7 +119,7 @@ $(function() {
 		}
 		if(num == '2'){
 			$("#slider2").css("background-color","#e18d08");
-			list = "<h2>400개의 </h2><h2>3D 얼굴 표정!!</h2><p>Joy and Freedom! 창작을 더 자유롭게! 더 즐겁게!</p>";
+			list = "<h2>Joy and Freedom! </h2><h2>창작을 더 자유롭게!</h2><p>자유롭고 즐겁게 창작에 몰입하세요!</p>";
 			$("#slider2").html(list);
 		}
 		if(num == '3'){
