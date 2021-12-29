@@ -332,167 +332,167 @@ $(function() {
 									</svg>
 								</div>
 								<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">공연</div>
-							</div>
-							</span>
+								</div>
+								</span>
 								
 								<!-- 디자인 -->
-						<span nclick="location.href='/listchul/listChul?state=no&category=디자인'">
-						<div cass="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<dv class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path d="M22.7369 7.57898L22.7369 15.1579H20.7158V7.57898H22.7369Z"
-										fill="black"></path>
-									<path
-										d="M9.97819 10.1951L17.5571 17.774L18.9862 16.3449L11.4073 8.76597L9.97819 10.1951Z"
-										fill="black"></path>
-									<path
-										d="M33.6717 10.6285L26.5262 17.774L25.0971 16.3449L32.2426 9.1994L33.6717 10.6285Z"
-										fill="black"></path>
-									<path
-										d="M18.4502 25.0727L8.84207 34.1053L7.45776 32.6327L17.0659 23.6002L18.4502 25.0727Z"
-										fill="black"></path>
-									<path d="M22.7369 36.6316V26.5263H20.7158V36.6316H22.7369Z"
-										fill="black"></path>
-									<path
-										d="M7.57896 21.4737H16.4211V19.4527L7.57896 19.4527L7.57896 21.4737Z"
-										fill="black"></path>
-									<path d="M34.1053 21.4737H27.7895V19.4527H34.1053V21.4737Z"
-										fill="black"></path>
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M31.8292 26.3292L24.7686 23.3684L27.2285 30.6562L35.6965 39.6595L40.2971 35.3324L31.8292 26.3292ZM28.1151 26.9633L30.6513 28.0268L37.4402 35.2449L35.784 36.8026L29.0026 29.5925L28.1151 26.9633Z"
-										fill="black"></path>
-									<path
-										d="M25.2632 20.8421C25.2632 22.5862 23.8493 24 22.1053 24C20.3612 24 18.9474 22.5862 18.9474 20.8421C18.9474 19.098 20.3612 17.6842 22.1053 17.6842C23.8493 17.6842 25.2632 19.098 25.2632 20.8421Z"
-										fill="#FF5757"></path>
-								</svg>
-							</iv>
-							<dv class="style__Depth1CategoryText-zxsodr-29 eubFxh">디자인</div>
-						</div>
-						</span>
+								<span onclick="location.href='/listchul/listChul?state=no&category=디자인'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M22.7369 7.57898L22.7369 15.1579H20.7158V7.57898H22.7369Z"
+												fill="black"></path>
+											<path
+												d="M9.97819 10.1951L17.5571 17.774L18.9862 16.3449L11.4073 8.76597L9.97819 10.1951Z"
+												fill="black"></path>
+											<path
+												d="M33.6717 10.6285L26.5262 17.774L25.0971 16.3449L32.2426 9.1994L33.6717 10.6285Z"
+												fill="black"></path>
+											<path
+												d="M18.4502 25.0727L8.84207 34.1053L7.45776 32.6327L17.0659 23.6002L18.4502 25.0727Z"
+												fill="black"></path>
+											<path d="M22.7369 36.6316V26.5263H20.7158V36.6316H22.7369Z"
+												fill="black"></path>
+											<path
+												d="M7.57896 21.4737H16.4211V19.4527L7.57896 19.4527L7.57896 21.4737Z"
+												fill="black"></path>
+											<path d="M34.1053 21.4737H27.7895V19.4527H34.1053V21.4737Z"
+												fill="black"></path>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M31.8292 26.3292L24.7686 23.3684L27.2285 30.6562L35.6965 39.6595L40.2971 35.3324L31.8292 26.3292ZM28.1151 26.9633L30.6513 28.0268L37.4402 35.2449L35.784 36.8026L29.0026 29.5925L28.1151 26.9633Z"
+												fill="black"></path>
+											<path
+												d="M25.2632 20.8421C25.2632 22.5862 23.8493 24 22.1053 24C20.3612 24 18.9474 22.5862 18.9474 20.8421C18.9474 19.098 20.3612 17.6842 22.1053 17.6842C23.8493 17.6842 25.2632 19.098 25.2632 20.8421Z"
+												fill="#FF5757"></path>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">디자인</div>
+								</div>
+								</span>
 								
 								
-						<!-- 사진 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=사진'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M17.0195 16.2054H8.33685V34.9053H39.6632V16.2054H30.9805L28.4446 11.8316H19.5555L17.0195 16.2054ZM18.3911 9.81055H29.6089L32.1449 14.1843H41.6842V36.9263H6.3158V14.1843H15.8551L18.3911 9.81055Z"
-										fill="black"></path>
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M23.9999 29.0106C26.1393 29.0106 27.8736 27.2762 27.8736 25.1369C27.8736 22.9975 26.1393 21.2632 23.9999 21.2632C21.8605 21.2632 20.1262 22.9975 20.1262 25.1369C20.1262 27.2762 21.8605 29.0106 23.9999 29.0106ZM23.9999 31.0316C27.2555 31.0316 29.8946 28.3924 29.8946 25.1369C29.8946 21.8813 27.2555 19.2421 23.9999 19.2421C20.7443 19.2421 18.1052 21.8813 18.1052 25.1369C18.1052 28.3924 20.7443 31.0316 23.9999 31.0316Z"
-										fill="black"></path>
-									<rect x="31.579" y="18.9474" width="5.05263" height="3.78947"
-										fill="#FF5757"></rect>
-								</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">사진</div>
-						</div>
-						</span>
-						
-						<!-- 영화비디오 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=영화·비디오'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M36.6316 31.1459V36.5053C36.6316 36.575 36.575 36.6316 36.5053 36.6316H6.44211C6.37235 36.6316 6.3158 36.575 6.3158 36.5053V12.7579C6.3158 12.6881 6.37235 12.6316 6.44211 12.6316H36.5053C36.575 12.6316 36.6316 12.6881 36.6316 12.7579V18.6225L43.4525 16.6737V33.0948L36.6316 31.1459ZM8.33685 34.6105V14.6526H34.6105V34.6105H8.33685ZM36.6316 29.044L41.4315 30.4154V19.3531L36.6316 20.7245V29.044Z"
-										fill="black">
-										</path>
-									<path d="M26.5264 24.7578L18.9474 29.8105L18.9474 19.7052L26.5264 24.7578Z" fill="#FF5757">
-										</path>
-								</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">영화 · 비디오</div>
-						</div>
-						</span>
-						
-						<!-- 푸드 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=푸드'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M33.4737 8.8421C29.288 8.8421 25.8948 12.2353 25.8948 16.4211V18.9474C25.8948 22.7027 28.626 25.8201 32.2104 26.4215V31.5789H34.2314V26.4889C38.0614 26.1087 41.0527 22.8774 41.0527 18.9474V16.4211C41.0527 12.2353 37.6595 8.8421 33.4737 8.8421ZM39.0316 18.9474V16.4211C39.0316 13.3515 36.5433 10.8632 33.4737 10.8632C30.4042 10.8632 27.9158 13.3515 27.9158 16.4211V18.9474C27.9158 22.0169 30.4042 24.5053 33.4737 24.5053C36.5433 24.5053 39.0316 22.0169 39.0316 18.9474Z"
-										fill="black">
-									</path>
-									<path
-										d="M10.4842 18.9474V10.1053H8.46313V18.9474C8.46313 22.5628 11.082 25.5666 14.5262 26.1652V31.5789H16.5472V26.235C20.2374 25.8558 23.1158 22.7377 23.1158 18.9474V10.1053H21.0947V18.9474C21.0947 21.8774 18.7195 24.2526 15.7895 24.2526C12.8594 24.2526 10.4842 21.8774 10.4842 18.9474Z"
-										fill="black">
-									</path>
-									<path d="M14.5262 10.1053V18.9474H16.5472V10.1053H14.5262Z"
-										fill="black">
-									</path>
-									<path d="M31.0737 31.5789H35.2421V41.6842H31.0737V31.5789Z"
-										fill="#FF5757">
-									</path>
-									<path d="M13.3895 31.5789H17.5579V41.6842H13.3895V31.5789Z"
-										fill="#FF5757">
-										</path>
-								</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">푸드</div>
-						</div>
-						</span>
-						
-						<!-- 음악 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=음악'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M36.3788 27.1579V7.55701L15.4104 12.6461V28.6539C13.8937 27.7992 11.8658 27.7062 10.0081 28.5724C7.13869 29.9105 5.76168 33.0305 6.93245 35.5412C8.10321 38.0519 11.3784 39.0026 14.2478 37.6646C17.0221 36.3709 18.4013 33.4114 17.4315 30.9474V14.2353L34.3578 10.1272V24.6151C32.8286 23.6927 30.739 23.5693 28.8291 24.4599C25.9597 25.7979 24.5827 28.9179 25.7535 31.4286C26.9243 33.9394 30.1995 34.89 33.0688 33.552C35.7229 32.3144 37.1001 29.5523 36.3655 27.1579H36.3788ZM32.2147 31.7203C34.3099 30.7433 34.9083 28.7144 34.3128 27.4374C33.7173 26.1604 31.7784 25.3146 29.6833 26.2916C27.5881 27.2686 26.9897 29.2975 27.5852 30.5745C28.1807 31.8515 30.1195 32.6973 32.2147 31.7203ZM13.3937 35.8329C15.4888 34.8559 16.0872 32.8269 15.4917 31.5499C14.8963 30.2729 12.9574 29.4271 10.8622 30.4041C8.76704 31.3811 8.16867 33.4101 8.76414 34.6871C9.35962 35.9641 11.2985 36.8099 13.3937 35.8329Z"
-										fill="black"></path>
-									<path
-										d="M34.3576 15.2489L17.4313 19.3111V14.2353L34.3576 10.1273V15.2489Z"
-										fill="#FF5757"></path>
-									</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">음악</div>
-						</div>
-						</span>
-						
-						<!-- 테크 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=테크'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M38.4 10.8632H8.33685V29.5579H31.579V31.5789H26.6206L27.3785 34.6105H30.3158V36.6316H15.1579V34.6105H18.0952L18.8531 31.5789H6.3158V8.8421H40.4211V20.2105H38.4V10.8632ZM24.5373 31.5789L25.2952 34.6105L20.1785 34.6105L20.9364 31.5789H24.5373Z"
-										fill="black"></path>
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M42.3157 22.1053H33.4736V36.6316H42.3157V22.1053ZM37.8946 32.8421C37.3365 32.8421 36.8841 33.2946 36.8841 33.8527C36.8841 34.4108 37.3365 34.8632 37.8946 34.8632C38.4527 34.8632 38.9052 34.4108 38.9052 33.8527C38.9052 33.2946 38.4527 32.8421 37.8946 32.8421Z"
-										fill="#FF5757"></path>
-								</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">테크</div>
-						</div>
-						</span>
-						
-						<!-- 패션 -->
-						<span onclick="location.href='/listchul/listChul?state=no&category=패션'">
-						<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
-							<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
-								<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<circle cx="24.6316" cy="24.6316" r="1.89474" fill="#FF5757"></circle>
-									<ellipse cx="24.6316" cy="30.9473" rx="1.89474" ry="1.89474"
-										fill="#FF5757">
-									</ellipse>
-									<path fill-rule="evenodd" clip-rule="evenodd"
-										d="M18.2776 7.40594L24.6315 12.5151L30.9853 7.40594L34.9845 12.6316H40.4211L39.0608 39.1579H10.2025L8.84216 12.6316H14.2784L18.2776 7.40594ZM14.4415 14.6526H10.9695L12.1226 37.1368H37.1407L38.2938 14.6526H34.8215L29.3153 21.2141L24.6315 14.8352L19.9477 21.2141L14.4415 14.6526ZM18.6244 10.2782L16.1368 13.5288L19.8416 17.9437L22.9288 13.7393L18.6244 10.2782ZM30.6385 10.2782L33.1262 13.5288L29.4213 17.9437L26.3342 13.7393L30.6385 10.2782Z"
-										fill="black"></path>
-								</svg>
-							</div>
-							<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">패션</div>
-						</div>
-						</span>
+								<!-- 사진 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=사진'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M17.0195 16.2054H8.33685V34.9053H39.6632V16.2054H30.9805L28.4446 11.8316H19.5555L17.0195 16.2054ZM18.3911 9.81055H29.6089L32.1449 14.1843H41.6842V36.9263H6.3158V14.1843H15.8551L18.3911 9.81055Z"
+												fill="black"></path>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M23.9999 29.0106C26.1393 29.0106 27.8736 27.2762 27.8736 25.1369C27.8736 22.9975 26.1393 21.2632 23.9999 21.2632C21.8605 21.2632 20.1262 22.9975 20.1262 25.1369C20.1262 27.2762 21.8605 29.0106 23.9999 29.0106ZM23.9999 31.0316C27.2555 31.0316 29.8946 28.3924 29.8946 25.1369C29.8946 21.8813 27.2555 19.2421 23.9999 19.2421C20.7443 19.2421 18.1052 21.8813 18.1052 25.1369C18.1052 28.3924 20.7443 31.0316 23.9999 31.0316Z"
+												fill="black"></path>
+											<rect x="31.579" y="18.9474" width="5.05263" height="3.78947"
+												fill="#FF5757"></rect>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">사진</div>
+								</div>
+								</span>
+								
+								<!-- 영화비디오 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=영화·비디오'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M36.6316 31.1459V36.5053C36.6316 36.575 36.575 36.6316 36.5053 36.6316H6.44211C6.37235 36.6316 6.3158 36.575 6.3158 36.5053V12.7579C6.3158 12.6881 6.37235 12.6316 6.44211 12.6316H36.5053C36.575 12.6316 36.6316 12.6881 36.6316 12.7579V18.6225L43.4525 16.6737V33.0948L36.6316 31.1459ZM8.33685 34.6105V14.6526H34.6105V34.6105H8.33685ZM36.6316 29.044L41.4315 30.4154V19.3531L36.6316 20.7245V29.044Z"
+												fill="black">
+												</path>
+											<path d="M26.5264 24.7578L18.9474 29.8105L18.9474 19.7052L26.5264 24.7578Z" fill="#FF5757">
+												</path>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">영화 · 비디오</div>
+								</div>
+								</span>
+								
+								<!-- 푸드 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=푸드'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M33.4737 8.8421C29.288 8.8421 25.8948 12.2353 25.8948 16.4211V18.9474C25.8948 22.7027 28.626 25.8201 32.2104 26.4215V31.5789H34.2314V26.4889C38.0614 26.1087 41.0527 22.8774 41.0527 18.9474V16.4211C41.0527 12.2353 37.6595 8.8421 33.4737 8.8421ZM39.0316 18.9474V16.4211C39.0316 13.3515 36.5433 10.8632 33.4737 10.8632C30.4042 10.8632 27.9158 13.3515 27.9158 16.4211V18.9474C27.9158 22.0169 30.4042 24.5053 33.4737 24.5053C36.5433 24.5053 39.0316 22.0169 39.0316 18.9474Z"
+												fill="black">
+											</path>
+											<path
+												d="M10.4842 18.9474V10.1053H8.46313V18.9474C8.46313 22.5628 11.082 25.5666 14.5262 26.1652V31.5789H16.5472V26.235C20.2374 25.8558 23.1158 22.7377 23.1158 18.9474V10.1053H21.0947V18.9474C21.0947 21.8774 18.7195 24.2526 15.7895 24.2526C12.8594 24.2526 10.4842 21.8774 10.4842 18.9474Z"
+												fill="black">
+											</path>
+											<path d="M14.5262 10.1053V18.9474H16.5472V10.1053H14.5262Z"
+												fill="black">
+											</path>
+											<path d="M31.0737 31.5789H35.2421V41.6842H31.0737V31.5789Z"
+												fill="#FF5757">
+											</path>
+											<path d="M13.3895 31.5789H17.5579V41.6842H13.3895V31.5789Z"
+												fill="#FF5757">
+												</path>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">푸드</div>
+								</div>
+								</span>
+								
+								<!-- 음악 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=음악'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M36.3788 27.1579V7.55701L15.4104 12.6461V28.6539C13.8937 27.7992 11.8658 27.7062 10.0081 28.5724C7.13869 29.9105 5.76168 33.0305 6.93245 35.5412C8.10321 38.0519 11.3784 39.0026 14.2478 37.6646C17.0221 36.3709 18.4013 33.4114 17.4315 30.9474V14.2353L34.3578 10.1272V24.6151C32.8286 23.6927 30.739 23.5693 28.8291 24.4599C25.9597 25.7979 24.5827 28.9179 25.7535 31.4286C26.9243 33.9394 30.1995 34.89 33.0688 33.552C35.7229 32.3144 37.1001 29.5523 36.3655 27.1579H36.3788ZM32.2147 31.7203C34.3099 30.7433 34.9083 28.7144 34.3128 27.4374C33.7173 26.1604 31.7784 25.3146 29.6833 26.2916C27.5881 27.2686 26.9897 29.2975 27.5852 30.5745C28.1807 31.8515 30.1195 32.6973 32.2147 31.7203ZM13.3937 35.8329C15.4888 34.8559 16.0872 32.8269 15.4917 31.5499C14.8963 30.2729 12.9574 29.4271 10.8622 30.4041C8.76704 31.3811 8.16867 33.4101 8.76414 34.6871C9.35962 35.9641 11.2985 36.8099 13.3937 35.8329Z"
+												fill="black"></path>
+											<path
+												d="M34.3576 15.2489L17.4313 19.3111V14.2353L34.3576 10.1273V15.2489Z"
+												fill="#FF5757"></path>
+											</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">음악</div>
+								</div>
+								</span>
+								
+								<!-- 테크 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=테크'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M38.4 10.8632H8.33685V29.5579H31.579V31.5789H26.6206L27.3785 34.6105H30.3158V36.6316H15.1579V34.6105H18.0952L18.8531 31.5789H6.3158V8.8421H40.4211V20.2105H38.4V10.8632ZM24.5373 31.5789L25.2952 34.6105L20.1785 34.6105L20.9364 31.5789H24.5373Z"
+												fill="black"></path>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M42.3157 22.1053H33.4736V36.6316H42.3157V22.1053ZM37.8946 32.8421C37.3365 32.8421 36.8841 33.2946 36.8841 33.8527C36.8841 34.4108 37.3365 34.8632 37.8946 34.8632C38.4527 34.8632 38.9052 34.4108 38.9052 33.8527C38.9052 33.2946 38.4527 32.8421 37.8946 32.8421Z"
+												fill="#FF5757"></path>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">테크</div>
+								</div>
+								</span>
+								
+								<!-- 패션 -->
+								<span onclick="location.href='/listchul/listChul?state=no&category=패션'">
+								<div class="style__Depth1Category-zxsodr-26 EyrIo header-swiper-slide">
+									<div class="style__Depth1CategoryIcon-zxsodr-27 eHXkLB">
+										<svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<circle cx="24.6316" cy="24.6316" r="1.89474" fill="#FF5757"></circle>
+											<ellipse cx="24.6316" cy="30.9473" rx="1.89474" ry="1.89474"
+												fill="#FF5757">
+											</ellipse>
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M18.2776 7.40594L24.6315 12.5151L30.9853 7.40594L34.9845 12.6316H40.4211L39.0608 39.1579H10.2025L8.84216 12.6316H14.2784L18.2776 7.40594ZM14.4415 14.6526H10.9695L12.1226 37.1368H37.1407L38.2938 14.6526H34.8215L29.3153 21.2141L24.6315 14.8352L19.9477 21.2141L14.4415 14.6526ZM18.6244 10.2782L16.1368 13.5288L19.8416 17.9437L22.9288 13.7393L18.6244 10.2782ZM30.6385 10.2782L33.1262 13.5288L29.4213 17.9437L26.3342 13.7393L30.6385 10.2782Z"
+												fill="black"></path>
+										</svg>
+									</div>
+									<div class="style__Depth1CategoryText-zxsodr-29 eubFxh">패션</div>
+								</div>
+								</span>
 						</div>
 					</div>
 				</div>
