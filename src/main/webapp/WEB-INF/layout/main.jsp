@@ -113,24 +113,23 @@ $(function() {
 		var num = $('#counter2').val();
 		var listText = '';
 		if(num == '1'){
-			$("#slider2").css("background-color","rgb(29, 50, 102)");
-			list = "<h2>유기동물이 행복한</h2><h2>크리스마스를</h2><p>포인핸드X마리몽 <유기동물의 꿈을 이뤄줄게> </p>";
+			$("#slider2").css("background-color","#122a1c");
+			list = "<h2>내 마음이 투명하다면,</h2><h2>울창한 숲일지도 몰라 </h2><p>『나터뷰』『성격의 단점을 서술하시오』를 이은 신작!</p>";
 			$("#slider2").html(list);
-				
 		}
 		if(num == '2'){
-			$("#slider2").css("background-color","rgb(229, 89, 89)");
-			list = "<h2>가장 나다운</h2><h2>2022를 찾아보세요 </h2><p>200가지 역대 최대 달력*다이어리 기획전 </p>";
+			$("#slider2").css("background-color","#e18d08");
+			list = "<h2>400개의 </h2><h2>3D 얼굴 표정!!</h2><p>Joy and Freedom! 창작을 더 자유롭게! 더 즐겁게!</p>";
 			$("#slider2").html(list);
 		}
 		if(num == '3'){
-			$("#slider2").css("background-color","rgb(115, 103, 166)");
-			list = "<h2>나의 첫 자취방</h2><h2>구하려니 막막하다면? </h2><p>한 권으로 끝내는 자취 만렙 가이드북</p>";
+			$("#slider2").css("background-color","#2b4b62");
+			list = "<h2>트러블 피부,</h2><h2>천연소재에서 답을 찾다. </h2><p>마스크를 벗을 수 없는 오늘,당신의 피부는 안녕한가요?</p>";
 			$("#slider2").html(list);	
 		}
 		if(num == '4'){
-			$("#slider2").css("background-color","rgb(62, 112, 76)");
-			list = "<h2>작업생활:</h2><h2>경기상상캠퍼스 </h2><p>도전과 실험이 돋보이는 신진 창작자의 프로젝트</p>";
+			$("#slider2").css("background-color","#6a2045");
+			list = "<h2><시간길목 정류장>에서 </h2><h2>당신을 기다립니다 </h2><p>시간길목 정류장에서 여러분을 기다리겠습니다:)</p>";
 			$("#slider2").html(list);	
 		}
 		if(num == '5'){
@@ -150,25 +149,25 @@ $(function() {
 		<ul id="slider">
          	<li>
          	<a href="/listchul/listChul?category=no&state=no&percent=no&search=강아지">
-			<img src="${root }/img/bg-img/pawinhandxmarimong.png">
+			<img src="${root }/img/bg-img/myhert.jpg">
 			</a>
           	</li>
           
          	<li>
 			<a href="/listchul/listChul?category=no&state=no&percent=no&search=달력">
-			<img src="${root }/img/bg-img/hello2022-8.png">
+			<img src="${root }/img/bg-img/400face3.jpg">			
 			</a>
           	</li>
           
          	<li>
 			<a href="/listchul/listChul?category=no&state=no&percent=no&search=">
-			<img src="${root }/img/bg-img/roomfriends_2.png">
+			<img src="${root }/img/bg-img/sochang3.jpg">
             </a>
             </li>
            
          	<li>
          	<a href="/listchul/listChul?state=new&category=no">         	
-			<img src="${root }/img/bg-img/sscampus2021.png">
+			<img src="${root }/img/bg-img/timebook.jpg">
 			</a>
             </li>
            
@@ -289,7 +288,12 @@ $(function() {
 			</div>
 		</c:forEach>
 	</div>
-	<div>
+	<div class="bottom_logo">
 		<img src="${root}/image/bottom-logo-img.png">
+		<div class="bottom_text">
+		<h6>좋은 아이디어를 가지고 있으신가요?</h6>
+		<h2>텀블벅과 함께 마음 속</h2>
+		<h2>프로젝트를 실현하세요</h2>
+		</div>
 	</div>
 </div>

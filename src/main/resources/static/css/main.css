@@ -41,3 +41,15 @@
 	font-size: 11pt;
 	font-weight: bold;
 }
+.bottom_text{
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 20px;
+}
+.bottom_text>h6,h2{
+	color: white;
+}
+.bottom_logo{
+	position:relative;
+	height: 250px;
+}
