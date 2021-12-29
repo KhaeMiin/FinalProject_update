@@ -64,23 +64,24 @@ $(function(){
 			$("b.passmsg").html("");
 		}
 	});
-	
-	$("#pass2").blur(function(){
+
+	$(".check_pass").focusout(function(){
 		var pass2=$(this).val().trim();//입력값
 		if(pass2.trim().length==0){
 			$("b.passmsg2").html("<font color='red'>패스워드를 입력해주세요</font>");
 			return;
 		}
+		
 		var pass = $("#pass").val();  // pw 입력
 		var pass2 = $("#pass2").val();  // pw 입력
 		
-		if(pass!=pass2){
+ 		if(pass!=pass2 && pass2 != ''){
 			$("b.passmsg2").html("<font color='red'>비밀번호가 서로 다릅니다.</font>");
 			$("#pass2").val("");
 			$("#pass2").focus();
 		}else{
 			$("b.passmsg2").html("");  
-		}
+		} 
 	});
 	
 	$("#email").blur(function(){
@@ -205,13 +206,13 @@ function lastcheck(f){
 		
 		<div style="margin-top:20px;">비밀번호</div>
 		<span style="font-size:6px; color:gray;">10자~12자리의 영문(대소문자)+숫자+특수문자 중 두 종류 이상을 조합하여 사용할 수 있습니다.</span>
-		<input type="password" class="form-control member-info" id="pass" name="pass"
+		<input type="password" class="form-control member-info check_pass" id="pass" name="pass"
 		maxlength="20"  placeholder="비밀번호를 입력해주세요"
 		required="required">
 		<b class="passmsg"></b>
 		
 		<div style="margin-top:10px;">비밀번호 확인</div>
-		<input type="password" class="form-control member-info" name="pass2" id="pass2"
+		<input type="password" class="form-control member-info check_pass" name="pass2" id="pass2"
 		maxlength="20" placeholder="비밀번호 확인을 위해 다시 한 번 입력해 주세요"
 		required="required">
 		<b class="passmsg2"></b>
