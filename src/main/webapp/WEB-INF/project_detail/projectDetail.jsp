@@ -174,9 +174,9 @@
 			rs = false;
 		}
 		
-		var pstName = $(this).siblings().children(".present-name").attr("data-pstName");
+		/* var pstName = $(this).siblings().children(".present-name").attr("data-pstName");
 		var pstOption = $(this).siblings().children().children(".pstOption").val();
-		var pstPrice = $(this).attr("data-price");
+		var pstPrice = $(this).attr("data-price"); */
 		if(loginok==''){
 			alert("로그인이 필요한 페이지 입니다.")
 			location.href = "/login/main";

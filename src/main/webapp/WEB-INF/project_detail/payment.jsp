@@ -66,7 +66,7 @@
 				data : {"hp":hp, "id":id},
 				success : function(data){
 					$("#add-hp").html(data);
-					$("#hp_test").val(data);
+					$("#ajax_hp").val(data);
 				},
 				error : function(request,status,error){
 			        alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
@@ -88,7 +88,7 @@
 				data : {"email":email, "id":id},
 				success : function(data){
 					$("#add-email").html(data);
-					$("#email_test").val(data);
+					$("#ajax_email").val(data);
 				},
 				error : function(request,status,error){
 			        alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
@@ -113,7 +113,7 @@
 				url:"/payment/deliveryInsert",
 				success:function(data){
 					$("#add-addr").html(data);
-					$("#addr_test").val(data);
+					$("#ajax_addr").val(data);
 				},error : function(request,status,error){
 			        alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
 			    }
@@ -152,11 +152,11 @@
 	<hr>
 	
 	<form action="/project_support/success" method="post" id="final-support-submit">
-		<input type="hidden" name="id" value="${sessionScope.id}">
+		<input type="hidden" name="id" id="id" value="${sessionScope.id}">
 		<input type="hidden" name="idx" value="${dto.idx}">
 		<input type="hidden" name="supportNum" value="${dto.number_support}">
 		<input type="hidden" name="end_date" value="${dto.end_date}">
-		<input type="hidden" name="addr" value="${addr}">
+		<%-- <input type="hidden" name="addr" value="${addr}"> --%>
 		<input type="hidden" name="present_name" value="${pstN}">
 		<input type="hidden" name="present_option" value="${pstO}">
 		<input type="hidden" name="price" value="${pstP}">
@@ -165,9 +165,9 @@
 		<input type="hidden" id="db_hp" value="${mdto.hp }">
 		<input type="hidden" id="db_addr" value="${addr }">
 		<input type="hidden" id="db_email" value="${mdto.email }">
-		<input type="hidden" name="addr_test" id="addr_test">
-		<input type="hidden" name="email_test" id="email_test">
-		<input type="hidden" name="hp_test" id="hp_test">
+		<input type="hidden" name="ajax_addr" id="ajax_addr">
+		<input type="hidden" name="ajax_email" id="ajax_email">
+		<input type="hidden" name="ajax_hp" id="ajax_hp">
 	
 	
 		<div class="payment-content">
@@ -203,62 +203,74 @@
 								<tr>
 									<th>연락처</th>
 									<td id="add-hp">
-										<c:if test="${mdto.hp == null}">
-											연락처를 등록해주세요 <i class="fa fa-plus plus-icon">&nbsp;추가</i>
-											<div class="add-info add-info-hp">
-											<select name="hp1" id="hp1" class="hp-text">
-												<option value="-" selected="selected" disabled="disabled">선택</option> 
-												<option value="010">010</option>
-												<option value="011">011</option>
-												<option value="016">016</option>
-												<option value="017">017</option>
-												<option value="018">018</option>
-												<option value="019">019</option>
-											</select>
-											<b>-</b>
-											<input type="text" class="hp-text" id="hp2" required="required" maxlength="4">
-											<b>-</b>
-											<input type="text" class="hp-text" id="hp3" required="required" maxlength="4">
-											<span>
-												<button type="button" class="btn-add-info btn-add-hp">등록하기</button>
-											</span>
-										</div>
-										</c:if>
-										${mdto.hp }
+										<c:choose>
+											<c:when test="${mdto.hp == null}">
+												연락처를 등록해주세요 <i class="fa fa-plus plus-icon">&nbsp;추가</i>
+												<div class="add-info add-info-hp">
+													<select name="hp1" id="hp1" class="hp-text">
+														<option value="-" selected="selected" disabled="disabled">선택</option> 
+														<option value="010">010</option>
+														<option value="011">011</option>
+														<option value="016">016</option>
+														<option value="017">017</option>
+														<option value="018">018</option>
+														<option value="019">019</option>
+													</select>
+													<b>-</b>
+													<input type="text" class="hp-text" id="hp2" required="required" maxlength="4">
+													<b>-</b>
+													<input type="text" class="hp-text" id="hp3" required="required" maxlength="4">
+													<span>
+														<button type="button" class="btn-add-info btn-add-hp">등록하기</button>
+													</span>
+												</div>
+											</c:when>
+											<c:otherwise>
+												${mdto.hp }
+											</c:otherwise>
+										</c:choose>
 									</td>
 								</tr>
 								<tr>
 									<th>이메일</th>
 									<td id="add-email">
-										<c:if test="${mdto.email == null}">
-											이메일을 등록해주세요 <i class="fa fa-plus plus-icon">&nbsp;추가</i>
-											<div class="add-info add-info-email">
-											<input type="text" class="email-text" id="email1" required="required">
-											<b>@</b>
-											<input type="text" class="email-text" id="email2" required="required">
-											<select id="selemail">
-												<option value="_">직접입력</option>
-												<option value="naver.com">네이버</option>
-												<option value="nate.com">네이트</option>
-												<option value="gmail.com">구글</option>
-												<option value="hanmail.net">다음</option>
-											</select>
-											<span>
-												<button type="button" class="btn-add-info btn-add-email">등록하기</button>
-											</span>
-										</div>
-										</c:if>
-										${mdto.email }
+										<c:choose>
+											<c:when test="${mdto.email == null}">
+												이메일을 등록해주세요 <i class="fa fa-plus plus-icon">&nbsp;추가</i>
+												<div class="add-info add-info-email">
+													<input type="text" class="email-text" id="email1" required="required">
+													<b>@</b>
+													<input type="text" class="email-text" id="email2" required="required">
+													<select id="selemail">
+														<option value="_">직접입력</option>
+														<option value="naver.com">네이버</option>
+														<option value="nate.com">네이트</option>
+														<option value="gmail.com">구글</option>
+														<option value="hanmail.net">다음</option>
+													</select>
+													<span>
+														<button type="button" class="btn-add-info btn-add-email">등록하기</button>
+													</span>
+												</div>
+											</c:when>
+											<c:otherwise>
+												${mdto.email }
+											</c:otherwise>
+										</c:choose>
 									</td>
 								</tr>
 								<tr>
 									<th>배송주소</th>
 									<td id="add-addr">
-										<c:if test="${addr == '   '}">
-											배송지를 등록해주세요 <i class="fa fa-plus plus-icon PlainLink__StyledLink-qbfirs-0 iFKMSH delivery"
-											data-toggle="modal" data-target="#moaModal">&nbsp;추가</i>
-										</c:if>
-										${addr}
+										<c:choose>
+											<c:when test="${addr == 'x x'}">
+												배송지를 등록해주세요 <i class="fa fa-plus plus-icon PlainLink__StyledLink-qbfirs-0 iFKMSH delivery"
+												data-toggle="modal" data-target="#moaModal">&nbsp;추가</i>
+											</c:when>
+											<c:otherwise>
+												${addr}
+											</c:otherwise>
+										</c:choose>
 									</td>
 								</tr>
 							</thead>

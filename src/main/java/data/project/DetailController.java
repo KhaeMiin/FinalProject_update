@@ -103,7 +103,7 @@ public class DetailController {
 		int percentageAchieved = (int)Math.round((totalAmount / targetAmount * 100));
 		String addr = ddto.getAddr();
 		String addr2 = ddto.getAddr2();
-		
+		//System.out.println(addr + addr2);
 		
 		if(pstN == null && pstO == null && pstP == null) {
 			pstN = "선물 없이 후원하기";
